@@ -9,6 +9,7 @@ body {
     background-repeat: no-repeat;
     overflow-x: hidden;
     background-color: white;
+    overflow-y: hidden;
 }
 header{
     margin: 0%;
@@ -81,5 +82,10 @@ header{
     color: #36c3ff;
     text-align: center;
 }
-
+#main{
+    height: 720px;
+    display: flexbox;
+    max-width: 100%;
+    transition: 1s;
+}
 

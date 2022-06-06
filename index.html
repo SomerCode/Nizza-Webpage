@@ -2,6 +2,12 @@
 <head>
     <title>Nizzareisen.com</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="index.html">
+    <link rel="preload" href="response.js" as="script">
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="logo.png">
+    <link rel="preload" href="navbcr.jpg">
+    <link rel="preload" href="menubtn.png">
 
 </head>
 <body onload="closenav(); document.title = 'Home | Nizzareisen.com';">
@@ -29,7 +35,15 @@
             </table>
         </div>
     </header>
-    <main>
-
-    </main>
+    <div id="main">
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe width="130%" height="650px" id="gmap_canvas" src="https://maps.google.com/maps?q=Nizza&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
+                <style>
+                .mapouter{position:static;text-align:center;height:120%;width:100%;}
+                </style>
+                <style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style>
+            </div>
+        </div>
+    </div>
 </body>
