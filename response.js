@@ -28,3 +28,11 @@ function changesite(site){
         console.log(window.location)
     }
 }
+function get_window_hi(){
+    let hi = window.screen.height
+    console.log("height: " + hi)
+    let hi_out = String(hi) + "px"
+    console.log("high_out: " + hi_out)
+    document.getElementById("map").style.height = hi_out
+    console.log("mapsize changed")
+}
