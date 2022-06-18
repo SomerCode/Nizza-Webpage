@@ -4,12 +4,11 @@
 body {
     margin: 0;
     height: 100%;
-    background-image: none;
+    background-image: url("bcr2.jpeg");
     background-size: 100%;
     background-repeat: no-repeat;
     overflow-x: hidden;
     background-color: white;
-    overflow-y: hidden;
 }
 header{
     margin: 0%;
@@ -89,4 +88,18 @@ header{
     max-width: 100%;
     transition: 1s;
 }
-
+#Sitetheme{
+    color: white;
+    margin: 10px;
+}
+.infotext{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.infoimage{
+    margin-left: 2%;
+    max-height: 400px;
+    display: flexbox;
+}

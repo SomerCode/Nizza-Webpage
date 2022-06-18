@@ -15,19 +15,7 @@ function closenav(){
     document.getElementById("main").style.marginLeft = "0%"
     navopended = false
 }
-function changesite(site){
-    console.log("sitechange")
-    let sitename = "file:///home/phantom/Nizza-Webpage/" + site + ".html"
-    console.log("Sitename: " + sitename)
-    if(sitename == window.location){
-        console.log("closenav")
-        closenav()
-    }
-    else{
-        window.location = sitename
-        console.log(window.location)
-    }
-}
+
 function get_window_hi(){
     let hi = window.screen.height
     console.log("height: " + hi)
